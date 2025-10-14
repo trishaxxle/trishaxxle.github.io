@@ -18,13 +18,13 @@ body {
 	color: rgb(28, 28, 28);  /* Not totally black. */
 	line-height: 180%; 	/* More breathing room for larger text */
 	font-family: sans-serif;
-	font-size: 18pt; /* Larger base text */
+	font-size: 1.5em; /* Larger base text */
 }
 
 h1 {
 	background-color: rgb(178, 177, 181); /* Light gray header bar */
 	color: rgb(255, 255, 255);
-	font-size: 40pt; /* much larger title */
+	font-size: 3.3em; /* much larger title */
 	padding: 1.5rem 3rem 1.5rem; 
 	font-weight: 800;
 	text-transform: uppercase;
