@@ -1,0 +1,101 @@
+/*CSS DOCUMENT*/
+
+body {
+	font-family: sans-serif;
+	line-height: 1.1em;
+	color: #222;
+	background-color: #fafafa;
+	box-sizing: border-box;
+	}
+	
+div.container {
+        max-width: 40em;
+        margin: 1em auto;
+        padding: 1em;
+		
+}
+
+/* I have *some* selectors with their declarations in the declaration block. You’ll need more selectors and declaration blocks. */
+section.personal-info ul {
+	display:flex;
+	flex-direction: column;
+	padding: 0;
+	list-style-type: none;
+	border-color: rgb(117, 28, 99);
+	justify-content: space-between;
+}
+
+
+section.personal-info ul li input[type="text"],
+section ul li input[type="email"],
+section ul li input[type="tel"],
+section ul li select {
+
+	box-sizing: border-box;
+	padding: 0.5em;
+	display: inline-block;
+	border-color: rgb(224, 224, 224);
+	flex: 1 0 25em;
+}
+label{
+	flex: 0 0 9em;
+}
+
+section.personal-info ul li {
+	display:flex;
+	column-gap: 1em;
+	padding: 0.5em;
+	flex-wrap: wrap;
+}
+
+section {
+    background: #eee;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+section p {
+	margin-top: 0;
+}
+
+textarea {
+	box-sizing: border-box;
+	width: 100%;  
+	height: 6em;
+	background: #fcfcfc;
+	border: 1px solid #e8e8e8;
+	padding: 0.4em;
+	font-family: sans-serif;
+	color: #777;
+	}
+
+
+  
+
+section.order ul {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1em;
+	padding: 0;
+	list-style-type: none;
+}
+section.order ul li {
+	flex: 1 0 17em;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	padding: 0.5em;
+}
+
+section.method ul {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1em;
+	padding: 0;
+	list-style-type: none;
+}
+section.method ul li {
+	flex: 1 0 15em;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	padding: 0.5em;
+}
