@@ -1,0 +1,79 @@
+/*CSS document*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+img {
+    width: 100%;
+    display: block;
+}
+div.container {
+    max-width: 55em;
+   margin:auto;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+nav li {
+   list-style: none;
+   display:inline-block;
+font-family: sans-serif;
+    font-weight: bold;
+    min-width:10em;
+}
+
+img.logo {
+	width: 5em;
+	}
+a {
+    text-decoration: none;
+    color: rgb(49, 79, 99);
+}
+header { 
+    color: rgb(49, 79, 99);
+    text-align: left;
+   padding: 1em;
+   max-width: 100%;
+   display:block;
+}
+
+section.main h2{
+    font-size: 3em;
+}
+h2{
+    font-family: serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding:0.25rem;
+    color: rgb(68, 104, 128);
+}
+p {
+    color: black;
+    padding: 0.25rem;
+    font-family: sans-serif;
+
+}
+section.t1, section.t2, section.t3, section.t4, section.t5, section.t6 {
+    padding: 0.25rem;
+color: black;
+ border-bottom: 1px solid rgb(68, 104, 128);
+}
+section.t1 h2, section.t2 h2, section.t3 h2, section.t4 h2, section.t5 h2, section.t6 h2 {
+    padding: 0.25rem;
+font-size:1.2em;
+}
+
+
+footer p{
+    background-color: rgb(68, 104, 128);
+    color: white;
+}
+figcaption {
+    color: rgb(58, 60, 62);
+    padding:0.25rem;
+    font-style: italic;
+}
+aside{
+    background-color: rgb(205,207,253);
+    padding: 1rem;
+}
