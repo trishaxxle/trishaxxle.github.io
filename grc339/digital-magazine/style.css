@@ -1,0 +1,331 @@
+/*CSS document*/
+
+html,
+body,
+div,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+div.container,
+div.homecontainer {
+	max-width: 40em;
+	margin: auto;
+
+}
+
+/* nav ul{
+    list-style: none;
+    padding: 0;   */
+/* } */
+h1 {
+	width: 6em;
+	margin-top: 1em;
+}
+
+h1,
+nav {
+	margin-bottom: 0.5em;
+}
+
+nav ul li a {
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #579;
+
+}
+
+nav ul li {
+	list-style-type: none;
+	margin-bottom: 0.25rem;
+}
+
+img.logo {
+	width: 5em;
+	margin-bottom: 1em;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(49, 79, 99);
+}
+
+header {
+	color: rgb(49, 79, 99);
+	text-align: left;
+	margin-bottom: 1em;
+	max-width: 100%;
+	display: block;
+}
+
+section.main h2 {
+	font-size: 3em;
+	line-height: 1em;
+}
+
+h2 {
+	font-family: serif;
+	font-weight: bold;
+	font-size: 1.5em;
+	padding: 0.25rem;
+	color: rgb(68, 104, 128);
+}
+
+article.mainstory h2 {
+	font-size: 2.5em;
+}
+
+p {
+	color: rgb(0, 0, 0);
+	padding: 0.25rem;
+	font-family: sans-serif;
+	margin-bottom: 0.5em;
+	line-height: 1.2em;
+
+}
+
+section.t1,
+section.t2,
+section.t3,
+section.t4,
+section.t5,
+section.t6 {
+
+	color: black;
+	border-bottom: 1px solid rgb(68, 104, 128);
+}
+
+section.t1 h2,
+section.t2 h2,
+section.t3 h2,
+section.t4 h2,
+section.t5 h2,
+section.t6 h2 {
+
+	font-size: 1.2em;
+}
+
+section.t1 {
+	border-top: 1px solid rgb(68, 104, 128);
+}
+
+
+footer p {
+	background-color: rgb(68, 104, 128);
+	color: rgb(255, 255, 255);
+}
+
+figcaption {
+	color: rgb(58, 60, 62);
+	padding: 0.25rem;
+	font-style: italic;
+}
+
+aside {
+	background-color: rgb(205, 207, 253);
+	padding: 1rem;
+}
+
+@media only screen and (min-width: 40em) {
+
+	header,
+	h2,
+	p {
+		margin: 0.2rem 0 0
+	}
+
+	figcaption {
+		color: #555;
+		font-style: italic;
+		margin: 0.2rem 0 1em;
+	}
+
+	nav ul li {
+		display: inline;
+		margin-right: 1em;
+
+	}
+}
+
+@media only screen and (min-width: 60em) {
+	div.homecontainer {
+		max-width: 80em;
+		padding: 0 1em;
+		display: grid;
+		grid-template-columns: 3fr 1fr;
+		grid-gap: 1em;
+	}
+
+	div.container {
+		max-width: 60em;
+		padding: 0 1em;
+		display: grid;
+		grid-template-columns: 3fr 1fr;
+		grid-gap: 1em;
+	}
+
+	div.homecontainer aside {
+		background: none;
+		padding: 0;
+		margin-top: 0;
+	}
+
+	div.container aside {
+		background: none;
+		padding: 0;
+		margin-top: 0;
+	}
+
+	header,
+	footer {
+		grid-column: 1/3;
+	}
+
+	div.homecontainer main {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 1em;
+	}
+
+	section.main {
+		grid-column: 2/4;
+		grid-row: 1/3;
+		display: flex;
+	}
+
+	section.main a {
+		display: flex;
+		flex: 1 0 12em;
+		flex-direction: column;
+	}
+
+	section.main a figure {
+		flex: 1 0 12em;
+		background-color: #579;
+		display: flex;
+	}
+
+	section.main a h2 {
+		flex: 0 0 1em;
+	}
+
+	section.main a p {
+		flex: 0 0 4em;
+	}
+
+	section.main a figure img {
+		object-fit: cover;
+	}
+
+	section.secondary {
+		display: flex;
+	}
+
+	section.secondary a {
+		display: flex;
+		flex: 1 0 12em;
+		flex-direction: column;
+	}
+
+	section.secondary a figure {
+		flex: 1 0 12em;
+		display: flex;
+	}
+
+	section.secondary a h2 {
+		flex: 0 0 1em;
+	}
+
+	section.secondary a p {
+		flex: 0 0 4em;
+	}
+
+	section.secondary a figure img {
+		object-fit: cover;
+	}
+}
