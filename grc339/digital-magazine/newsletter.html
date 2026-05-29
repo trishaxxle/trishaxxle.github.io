@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" href="https://use.typekit.net/krc8xkp.css">
+      
+      <link rel="stylesheet" href="style.css" />
+      <title>AIR//SHIFT</title>
+      <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+      <meta http-equiv="Pragma" content="no-cache" />
+      <meta http-equiv="Expires" content="0" />
+   </head>
+   <body>
+      <div class="container">
+         <header>
+            <h1> <a href="index.html"><img src="snowboarding logo.svg" class="logo" alt="Logo of the publication."></a></h1>
+          <nav>
+               <ul>
+                  <li><a href="#">Riders</a></li>
+                  <li><a href="#">Style</a></li>
+                  <li><a href="#">Edits</a></li>
+                  <li><a href="#">Culture</a></li>
+                  <li><a href="#">Terrain</a></li>
+               </ul>
+            </nav>
+         </header>
+         <main>
+            <h2>Subscribe to our Newsletter</h2>
+            <p>Stay up to date with the latest news and updates from AIR//SHIFT by subscribing to our newsletter. Enter your email address below to receive regular updates, exclusive content, and special offers directly in your inbox.</p>
+             <form action="submit_form.php" method="post">
+               <label for="name">Name:</label>
+               <input type="text" id="name" name="name" required>
+ 
+               <label for="email">Email Address:</label>
+               <input type="email" id="email" name="email" required>
+ 
+               <label for="phone">Phone Number:</label>
+               <input type="tel" id="phone" name="phone">
+ 
+               <fieldset class="interests">
+                  <legend>Interests:</legend>
+                  <ul class="interests">
+                     <li>
+                        <input type="checkbox" id="riders" name="interests">
+                        <label for="riders">Riders</label>
+                     </li>
+                     <li>
+                        <input type="checkbox" id="style" name="interests">
+                        <label for="style">Style</label>
+                     </li>
+                     <li>
+                        <input type="checkbox" id="edits" name="interests">
+                        <label for="edits">Edits</label>
+                     </li>
+                     <li>
+                        <input type="checkbox" id="culture" name="interests">
+                        <label for="culture">Culture</label>
+                     </li>
+                     <li>
+                        <input type="checkbox" id="terrain" name="interests">
+                        <label for="terrain">Terrain</label>
+                     </li>
+                  </ul>
+               </fieldset>
+ 
+               <button type="submit">Subscribe</button>
+            </form>
+         </main>
+         <footer>
+            <p> All rights reserved.</p>
+         </footer>
+      </div>
+   </body>
+</html>
