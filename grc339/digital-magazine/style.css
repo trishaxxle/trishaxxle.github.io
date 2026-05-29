@@ -445,10 +445,10 @@ ul.interests input[type="checkbox"] {
 		object-fit: cover;
 	}
 	
-/* main.gallerypage {
+main.gallerypage {
     width: 100%;
     grid-column: 1 / 3;
-} */
+}
 /* nav.gallery {
 	display: flex;
 	justify-content: space-between;
